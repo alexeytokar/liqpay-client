@@ -1,5 +1,4 @@
 group 'ua.net.tokar'
-version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {

@@ -6,6 +6,7 @@
 java client for liqpay integration
 
 # Sample usage
+```java
 @RestController
 @RequestMapping( "/v1/liq-pay/" )
 public class LiqPayController {
@@ -78,3 +79,4 @@ public class LiqPayController {
         } catch ( LiqPayException e ) {}
     }
 }
+```

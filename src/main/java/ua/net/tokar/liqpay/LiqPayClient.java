@@ -41,7 +41,7 @@ public class LiqPayClient {
                     Base64.getEncoder().encodeToString(
                             DigestUtils.sha1( privateKey + data + privateKey )
                     ),
-                    "https://www.liqpay.com/api/" + LiqPayRequest.LATEST_VERSION + "/checkout"
+                    "https://www.liqpay.ua/api/" + LiqPayRequest.LATEST_VERSION + "/checkout"
             );
         } catch ( JsonProcessingException e ) {
             throw new LiqPayException( "Couldn't process provided request", e );
